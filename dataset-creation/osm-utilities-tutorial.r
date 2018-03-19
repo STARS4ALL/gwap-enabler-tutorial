@@ -83,10 +83,6 @@ getNodeRestaurantOverpassQuery <- function(coords=NULL, swne=c()){
 
 # b) with output in .csv format
 getNodeRestaurantOverpassQueryCSV <- function(coords=NULL, swne=c(), columns=c()){
-  # [out:csv(::id;false)]; --> in output voglio un csv con una colonna con l'id e non voglio la riga di header (false)
-  # node(s,w,n,e); --> prendi tutti i nodi nel bounding box, oppure
-  # node(poly:"lat lon lat lon lat lon ..."); --> prendi tutti i nodi nel poligono
-  # out ids; --> genera l'output, ma solo con gli id
   if(is.null(coords)){
     bbox.string = paste(swne, collapse=",")
     query <- paste0("[out:csv(", columns, ")];node[amenity=restaurant](", bbox.string, "); out;")
