@@ -84,14 +84,14 @@ setwd("/path/to/workspace/")
     # a) table RESOURCE    
     query.resource<-character()
     query.resource<-c("LOCK TABLES resource WRITE;")
-    query.resource<-c(query.resource, "INSERT INTO resource (refId, lat, lng, orderBy) VALUES")
+    query.resource<-c(query.resource, "INSERT INTO resource (refId, lat, lng, orderBy, label, url) VALUES")
     
     for(i in 1:nrow(resource)){
       if(i != nrow(resource)){
-        q<-paste0("(", resource[i,]$X.id, "," , resource[i,]$X.lat, "," , resource[i,]$X.lon, ", rand()),")
+        q<-paste0("(", resource[i,]$X.id, "," , resource[i,]$X.lat, "," , resource[i,]$X.lon, ", rand(),'", gsub("'","''",resource[i,]$name), "', 'www.openstreetmap.org/node/", resource[i,]$X.id, "'),")
         query.resource<-c(query.resource, q)
       }else{
-        q<-paste0("(", resource[i,]$X.id, "," , resource[i,]$X.lat, "," , resource[i,]$X.lon, ", rand());")
+        q<-paste0("(", resource[i,]$X.id, "," , resource[i,]$X.lat, "," , resource[i,]$X.lon, ", rand(),'", gsub("'","''",resource[i,]$name), "', 'www.openstreetmap.org/node/", resource[i,]$X.id, "');")
         query.resource<-c(query.resource, q)
       }
     }    
@@ -118,7 +118,7 @@ setwd("/path/to/workspace/")
     
     
     # c) table RESOURCE HAS TOPIC (per GT solo una riga, per le altre una riga per ogni categoria)
-      #a) GT resources: only one row of the correspondig topic with score 2
+      #c.1) GT resources: only one row of the correspondig topic with score 2
       query.rht.gt<-character()
       query.rht.gt<-c("LOCK TABLES resource_has_topic WRITE, resource READ, topic READ;")
       
@@ -129,7 +129,7 @@ setwd("/path/to/workspace/")
       query.rht.gt<-c(query.rht.gt, "UNLOCK TABLES;")
       write(query.rht.gt, file="resource_has_topic_gt-insert.sql")  # all the resource_has_topic INSERT queries (for GT images)
       
-      #b) toClassify resources: one row for each topic with score 0
+      #c.2) toClassify resources: one row for each topic with score 0
       query.rht.toclassify<-character()
       query.rht.toclassify<-c("LOCK TABLES resource_has_topic WRITE, resource READ, topic READ;")
       
@@ -141,7 +141,3 @@ setwd("/path/to/workspace/")
       }
       query.rht.toclassify<-c(query.rht.toclassify, "UNLOCK TABLES;")
       write(query.rht.toclassify, file="resource_has_topic-2-insert.sql")  # all the resource_has_topic INSERT queries (for toClassify images)
-
-
-
- 
