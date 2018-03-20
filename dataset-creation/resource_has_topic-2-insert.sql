@@ -16,14 +16,14 @@
  * Contributors:
  *     Andrea Fiano, Gloria Re Calegari, Irene Celino.
  */
- 
+
 LOCK TABLES resource_has_topic WRITE, resource READ, topic READ;
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='pizza'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =258076664), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -31,8 +31,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =260349669), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =260349669), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =260349669), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =260349669), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =260349669), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =260349669), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =260349669), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =260349669), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =260349669), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -40,8 +40,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =267033957), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =267033957), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =267033957), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =267033957), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =267033957), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =267033957), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =267033957), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =267033957), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =267033957), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -49,8 +49,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =269925843), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =269925843), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =269925843), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =269925843), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =269925843), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =269925843), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =269925843), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =269925843), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =269925843), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -58,8 +58,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =281819163), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =281819163), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =281819163), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =281819163), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =281819163), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =281819163), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =281819163), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =281819163), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =281819163), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -67,8 +67,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =282472015), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =282472015), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =282472015), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =282472015), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =282472015), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =282472015), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =282472015), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =282472015), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =282472015), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -76,8 +76,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =309697691), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =309697691), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =309697691), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =309697691), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =309697691), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =309697691), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =309697691), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =309697691), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =309697691), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -85,8 +85,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =310987054), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =310987054), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =310987054), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =310987054), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =310987054), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =310987054), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =310987054), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =310987054), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =310987054), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -94,8 +94,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =446783492), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =446783492), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =446783492), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =446783492), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =446783492), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =446783492), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =446783492), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =446783492), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =446783492), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -103,8 +103,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813377), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813377), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813377), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813377), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813377), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813377), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813377), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813377), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813377), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -112,8 +112,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813403), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813403), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813403), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813403), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813403), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813403), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813403), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813403), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813403), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -121,8 +121,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813427), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813427), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813427), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813427), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813427), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813427), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813427), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813427), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540813427), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -130,8 +130,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540830202), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540830202), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540830202), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540830202), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540830202), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540830202), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540830202), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540830202), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =540830202), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -139,8 +139,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064040), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064040), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064040), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064040), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064040), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064040), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064040), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064040), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064040), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -148,8 +148,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064050), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064050), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064050), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064050), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064050), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064050), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064050), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064050), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =541064050), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -157,8 +157,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404060), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404060), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404060), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404060), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404060), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404060), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404060), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404060), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404060), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -166,8 +166,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404370), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404370), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404370), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404370), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404370), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404370), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404370), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404370), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =543404370), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -175,8 +175,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269431), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269431), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269431), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269431), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269431), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269431), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269431), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269431), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269431), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -184,8 +184,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269432), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269432), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269432), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269432), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269432), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269432), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269432), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269432), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =915269432), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -193,8 +193,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1118675756), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1118675756), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1118675756), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1118675756), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1118675756), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1118675756), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1118675756), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1118675756), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1118675756), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -202,8 +202,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1298672625), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1298672625), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1298672625), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1298672625), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1298672625), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1298672625), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1298672625), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1298672625), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1298672625), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -211,8 +211,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1318763914), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1318763914), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1318763914), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1318763914), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1318763914), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1318763914), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1318763914), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1318763914), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1318763914), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -220,8 +220,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1432170553), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1432170553), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1432170553), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1432170553), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1432170553), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1432170553), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1432170553), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1432170553), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1432170553), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -229,8 +229,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1684675760), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1684675760), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1684675760), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1684675760), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1684675760), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1684675760), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1684675760), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1684675760), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1684675760), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -238,8 +238,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1737981848), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1737981848), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1737981848), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1737981848), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1737981848), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1737981848), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1737981848), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1737981848), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1737981848), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -247,8 +247,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1807030451), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1807030451), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1807030451), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1807030451), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1807030451), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1807030451), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1807030451), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1807030451), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1807030451), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -256,8 +256,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1895967931), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1895967931), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1895967931), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1895967931), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1895967931), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1895967931), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1895967931), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1895967931), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1895967931), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -265,8 +265,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1896236915), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1896236915), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1896236915), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1896236915), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1896236915), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1896236915), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1896236915), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1896236915), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1896236915), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -274,8 +274,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1901845028), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1901845028), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1901845028), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1901845028), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1901845028), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1901845028), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1901845028), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1901845028), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1901845028), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -283,8 +283,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1944410727), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1944410727), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1944410727), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1944410727), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1944410727), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1944410727), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1944410727), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1944410727), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1944410727), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -292,8 +292,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1955032802), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1955032802), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1955032802), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1955032802), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1955032802), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1955032802), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1955032802), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1955032802), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =1955032802), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -301,8 +301,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034384164), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034384164), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034384164), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034384164), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034384164), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034384164), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034384164), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034384164), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034384164), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -310,8 +310,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034717482), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034717482), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034717482), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034717482), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034717482), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034717482), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034717482), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034717482), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2034717482), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -319,8 +319,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2052642511), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2052642511), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2052642511), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2052642511), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2052642511), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2052642511), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2052642511), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2052642511), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2052642511), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -328,8 +328,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2095618239), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2095618239), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2095618239), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2095618239), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2095618239), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2095618239), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2095618239), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2095618239), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2095618239), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -337,8 +337,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2097778115), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2097778115), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2097778115), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2097778115), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2097778115), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2097778115), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2097778115), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2097778115), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2097778115), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -346,8 +346,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2161119627), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2161119627), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2161119627), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2161119627), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2161119627), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2161119627), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2161119627), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2161119627), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2161119627), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -355,8 +355,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2263249788), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2263249788), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2263249788), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2263249788), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2263249788), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2263249788), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2263249788), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2263249788), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2263249788), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -364,8 +364,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2272560098), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2272560098), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2272560098), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2272560098), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2272560098), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2272560098), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2272560098), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2272560098), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2272560098), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -373,8 +373,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2290137837), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2290137837), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2290137837), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2290137837), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2290137837), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2290137837), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2290137837), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2290137837), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2290137837), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -382,8 +382,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2328659096), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2328659096), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2328659096), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2328659096), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2328659096), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2328659096), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2328659096), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2328659096), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2328659096), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -391,8 +391,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193228), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193228), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193228), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193228), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193228), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193228), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193228), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193228), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193228), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -400,8 +400,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193231), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193231), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193231), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193231), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193231), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193231), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193231), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193231), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193231), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -409,8 +409,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193233), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193233), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193233), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193233), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193233), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193233), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193233), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193233), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193233), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -418,8 +418,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193235), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193235), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193235), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193235), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193235), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193235), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193235), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193235), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2329193235), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -427,8 +427,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2380916747), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2380916747), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2380916747), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2380916747), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2380916747), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2380916747), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2380916747), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2380916747), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2380916747), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -436,8 +436,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719020), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719020), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719020), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719020), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719020), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719020), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719020), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719020), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719020), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -445,8 +445,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719026), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719026), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719026), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719026), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719026), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719026), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719026), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719026), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2403719026), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -454,8 +454,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016307), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016307), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016307), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016307), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016307), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016307), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016307), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016307), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016307), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -463,8 +463,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016311), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016311), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016311), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016311), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016311), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016311), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016311), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016311), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416016311), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -472,8 +472,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416148139), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416148139), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416148139), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416148139), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416148139), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416148139), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416148139), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416148139), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2416148139), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -481,8 +481,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2417414819), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2417414819), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2417414819), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2417414819), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2417414819), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2417414819), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2417414819), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2417414819), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2417414819), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -490,8 +490,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130554), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130554), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130554), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130554), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130554), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130554), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130554), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130554), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130554), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -499,8 +499,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130558), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130558), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130558), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130558), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130558), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130558), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130558), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130558), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2419130558), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -508,8 +508,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2433809548), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2433809548), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2433809548), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2433809548), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2433809548), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2433809548), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2433809548), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2433809548), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2433809548), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -517,8 +517,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2438877447), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2438877447), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2438877447), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2438877447), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2438877447), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2438877447), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2438877447), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2438877447), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2438877447), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -526,8 +526,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2456061001), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2456061001), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2456061001), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2456061001), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2456061001), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2456061001), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2456061001), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2456061001), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2456061001), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -535,8 +535,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2471320046), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2471320046), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2471320046), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2471320046), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2471320046), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2471320046), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2471320046), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2471320046), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2471320046), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -544,8 +544,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479386542), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479386542), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479386542), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479386542), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479386542), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479386542), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479386542), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479386542), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479386542), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -553,8 +553,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479398392), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479398392), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479398392), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479398392), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479398392), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479398392), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479398392), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479398392), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479398392), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -562,8 +562,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479405419), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479405419), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479405419), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479405419), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479405419), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479405419), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479405419), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479405419), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479405419), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -571,8 +571,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479437271), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479437271), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479437271), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479437271), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479437271), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479437271), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479437271), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479437271), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2479437271), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -580,8 +580,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587270), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587270), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587270), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587270), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587270), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587270), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587270), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587270), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587270), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -589,8 +589,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587274), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587274), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587274), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587274), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587274), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587274), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587274), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587274), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488587274), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -598,8 +598,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604226), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604226), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604226), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604226), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604226), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604226), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604226), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604226), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604226), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -607,8 +607,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604883), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604883), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604883), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604883), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604883), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604883), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604883), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604883), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488604883), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -616,8 +616,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488654835), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488654835), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488654835), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488654835), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488654835), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488654835), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488654835), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488654835), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2488654835), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -625,8 +625,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491545064), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491545064), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491545064), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491545064), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491545064), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491545064), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491545064), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491545064), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491545064), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -634,8 +634,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491555592), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491555592), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491555592), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491555592), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491555592), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491555592), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491555592), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491555592), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2491555592), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -643,8 +643,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2496456233), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2496456233), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2496456233), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2496456233), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2496456233), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2496456233), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2496456233), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2496456233), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2496456233), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -652,8 +652,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2519017875), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2519017875), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2519017875), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2519017875), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2519017875), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2519017875), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2519017875), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2519017875), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2519017875), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -661,8 +661,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2550552632), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2550552632), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2550552632), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2550552632), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2550552632), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2550552632), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2550552632), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2550552632), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2550552632), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -670,8 +670,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2558935281), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2558935281), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2558935281), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2558935281), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2558935281), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2558935281), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2558935281), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2558935281), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2558935281), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -679,8 +679,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2688625594), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2688625594), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2688625594), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2688625594), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2688625594), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2688625594), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2688625594), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2688625594), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2688625594), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -688,8 +688,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2724262380), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2724262380), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2724262380), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2724262380), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2724262380), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2724262380), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2724262380), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2724262380), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2724262380), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -697,8 +697,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2947891393), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2947891393), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2947891393), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2947891393), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2947891393), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2947891393), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2947891393), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2947891393), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =2947891393), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -706,8 +706,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3049154293), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3049154293), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3049154293), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3049154293), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3049154293), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3049154293), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3049154293), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3049154293), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3049154293), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -715,8 +715,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3079034142), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3079034142), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3079034142), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3079034142), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3079034142), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3079034142), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3079034142), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3079034142), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3079034142), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -724,8 +724,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3114603764), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3114603764), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3114603764), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3114603764), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3114603764), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3114603764), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3114603764), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3114603764), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3114603764), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -733,8 +733,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147151909), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147151909), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147151909), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147151909), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147151909), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147151909), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147151909), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147151909), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147151909), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -742,8 +742,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154529), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154529), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154529), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154529), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154529), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154529), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154529), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154529), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154529), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -751,8 +751,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154530), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154530), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154530), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154530), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154530), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154530), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154530), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154530), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147154530), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -760,8 +760,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147174910), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147174910), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147174910), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147174910), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147174910), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147174910), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147174910), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147174910), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147174910), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -769,8 +769,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227481), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227481), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227481), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227481), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227481), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227481), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227481), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227481), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227481), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -778,8 +778,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227482), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227482), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227482), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227482), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227482), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227482), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227482), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227482), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3147227482), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -787,8 +787,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3189034057), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3189034057), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3189034057), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3189034057), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3189034057), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3189034057), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3189034057), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3189034057), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3189034057), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -796,8 +796,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982356), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982356), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982356), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982356), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982356), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982356), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982356), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982356), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982356), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -805,8 +805,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982891), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982891), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982891), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982891), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982891), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982891), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982891), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982891), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217982891), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -814,8 +814,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983444), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983444), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983444), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983444), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983444), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983444), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983444), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983444), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983444), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -823,8 +823,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983531), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983531), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983531), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983531), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983531), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983531), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983531), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983531), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3217983531), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -832,8 +832,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3225290992), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3225290992), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3225290992), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3225290992), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3225290992), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3225290992), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3225290992), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3225290992), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3225290992), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -841,8 +841,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3245120735), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3245120735), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3245120735), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3245120735), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3245120735), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3245120735), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3245120735), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3245120735), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3245120735), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -850,8 +850,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3307148692), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3307148692), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3307148692), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3307148692), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3307148692), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3307148692), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3307148692), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3307148692), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3307148692), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -859,8 +859,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3386286646), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3386286646), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3386286646), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3386286646), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3386286646), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3386286646), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3386286646), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3386286646), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3386286646), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -868,8 +868,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3429941130), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3429941130), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3429941130), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3429941130), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3429941130), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3429941130), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3429941130), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3429941130), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3429941130), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -877,8 +877,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3442415269), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3442415269), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3442415269), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3442415269), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3442415269), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3442415269), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3442415269), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3442415269), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3442415269), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -886,8 +886,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3448550215), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3448550215), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3448550215), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3448550215), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3448550215), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3448550215), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3448550215), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3448550215), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3448550215), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -895,8 +895,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476245745), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476245745), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476245745), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476245745), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476245745), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476245745), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476245745), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476245745), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476245745), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -904,8 +904,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476326824), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476326824), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476326824), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476326824), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476326824), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476326824), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476326824), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476326824), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476326824), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -913,8 +913,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476351583), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476351583), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476351583), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476351583), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476351583), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476351583), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476351583), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476351583), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3476351583), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -922,8 +922,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3517151649), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3517151649), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3517151649), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3517151649), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3517151649), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3517151649), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3517151649), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3517151649), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3517151649), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -931,8 +931,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819297), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819297), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819297), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819297), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819297), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819297), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819297), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819297), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819297), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -940,8 +940,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819309), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819309), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819309), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819309), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819309), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819309), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819309), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819309), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819309), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -949,8 +949,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819399), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819399), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819399), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819399), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819399), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819399), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819399), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819399), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521819399), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -958,8 +958,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521849183), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521849183), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521849183), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521849183), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521849183), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521849183), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521849183), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521849183), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3521849183), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -967,8 +967,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3719677635), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3719677635), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3719677635), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3719677635), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3719677635), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3719677635), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3719677635), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3719677635), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3719677635), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -976,8 +976,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3758885836), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3758885836), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3758885836), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3758885836), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3758885836), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3758885836), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3758885836), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3758885836), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3758885836), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -985,8 +985,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3764239494), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3764239494), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3764239494), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3764239494), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3764239494), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3764239494), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3764239494), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3764239494), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3764239494), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -994,8 +994,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3770135390), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3770135390), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3770135390), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3770135390), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3770135390), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3770135390), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3770135390), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3770135390), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3770135390), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1003,8 +1003,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3771161982), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3771161982), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3771161982), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3771161982), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3771161982), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3771161982), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3771161982), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3771161982), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3771161982), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1012,8 +1012,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690259), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690259), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690259), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690259), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690259), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690259), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690259), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690259), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690259), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1021,8 +1021,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690704), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690704), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690704), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690704), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690704), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690704), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690704), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690704), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3799690704), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1030,8 +1030,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3800675563), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3800675563), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3800675563), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3800675563), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3800675563), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3800675563), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3800675563), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3800675563), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3800675563), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1039,8 +1039,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3834926399), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3834926399), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3834926399), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3834926399), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3834926399), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3834926399), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3834926399), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3834926399), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3834926399), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1048,8 +1048,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621227), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621227), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621227), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621227), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621227), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621227), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621227), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621227), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621227), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1057,8 +1057,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621237), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621237), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621237), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621237), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621237), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621237), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621237), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621237), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621237), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1066,8 +1066,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621436), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621436), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621436), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621436), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621436), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621436), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621436), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621436), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3848621436), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1075,8 +1075,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3861300004), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3861300004), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3861300004), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3861300004), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3861300004), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3861300004), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3861300004), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3861300004), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3861300004), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1084,8 +1084,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3877328075), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3877328075), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3877328075), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3877328075), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3877328075), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3877328075), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3877328075), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3877328075), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3877328075), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1093,8 +1093,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3899392302), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3899392302), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3899392302), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3899392302), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3899392302), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3899392302), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3899392302), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3899392302), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3899392302), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1102,8 +1102,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949536741), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949536741), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949536741), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949536741), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949536741), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949536741), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949536741), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949536741), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949536741), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1111,8 +1111,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949538591), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949538591), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949538591), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949538591), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949538591), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949538591), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949538591), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949538591), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3949538591), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1120,8 +1120,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3958620196), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3958620196), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3958620196), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3958620196), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3958620196), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3958620196), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3958620196), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3958620196), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3958620196), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1129,8 +1129,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3976146296), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3976146296), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3976146296), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3976146296), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3976146296), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3976146296), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3976146296), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3976146296), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =3976146296), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1138,8 +1138,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4041813191), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4041813191), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4041813191), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4041813191), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4041813191), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4041813191), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4041813191), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4041813191), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4041813191), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1147,8 +1147,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4092138537), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4092138537), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4092138537), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4092138537), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4092138537), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4092138537), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4092138537), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4092138537), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4092138537), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1156,8 +1156,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4129700109), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4129700109), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4129700109), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4129700109), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4129700109), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4129700109), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4129700109), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4129700109), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4129700109), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1165,8 +1165,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142385795), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142385795), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142385795), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142385795), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142385795), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142385795), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142385795), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142385795), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142385795), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1174,8 +1174,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142386594), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142386594), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142386594), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142386594), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142386594), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142386594), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142386594), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142386594), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142386594), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1183,8 +1183,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142387315), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142387315), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142387315), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142387315), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142387315), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142387315), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142387315), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142387315), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4142387315), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1192,8 +1192,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207083781), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207083781), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207083781), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207083781), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207083781), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207083781), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207083781), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207083781), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207083781), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1201,8 +1201,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207084492), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207084492), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207084492), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207084492), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207084492), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207084492), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207084492), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207084492), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207084492), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1210,8 +1210,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085490), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085490), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085490), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085490), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085490), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085490), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085490), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085490), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085490), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1219,8 +1219,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085866), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085866), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085866), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085866), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085866), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085866), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085866), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085866), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4207085866), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1228,8 +1228,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4217358929), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4217358929), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4217358929), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4217358929), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4217358929), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4217358929), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4217358929), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4217358929), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4217358929), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1237,8 +1237,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4230559078), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4230559078), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4230559078), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4230559078), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4230559078), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4230559078), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4230559078), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4230559078), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4230559078), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1246,8 +1246,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237135015), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237135015), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237135015), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237135015), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237135015), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237135015), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237135015), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237135015), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237135015), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1255,8 +1255,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237136578), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237136578), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237136578), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237136578), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237136578), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237136578), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237136578), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237136578), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237136578), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1264,8 +1264,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237141686), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237141686), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237141686), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237141686), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237141686), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237141686), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237141686), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237141686), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237141686), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1273,8 +1273,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237618032), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237618032), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237618032), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237618032), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237618032), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237618032), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237618032), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237618032), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4237618032), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1282,8 +1282,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277858843), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277858843), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277858843), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277858843), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277858843), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277858843), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277858843), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277858843), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277858843), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1291,8 +1291,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859750), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859750), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859750), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859750), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859750), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859750), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859750), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859750), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859750), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1300,8 +1300,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859751), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859751), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859751), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859751), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859751), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859751), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859751), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859751), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4277859751), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1309,8 +1309,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4281540624), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4281540624), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4281540624), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4281540624), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4281540624), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4281540624), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4281540624), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4281540624), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4281540624), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1318,8 +1318,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4304781358), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4304781358), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4304781358), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4304781358), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4304781358), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4304781358), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4304781358), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4304781358), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4304781358), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1327,8 +1327,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4310480991), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4310480991), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4310480991), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4310480991), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4310480991), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4310480991), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4310480991), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4310480991), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4310480991), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1336,8 +1336,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738353), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738353), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738353), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738353), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738353), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738353), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738353), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738353), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738353), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1345,8 +1345,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738901), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738901), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738901), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738901), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738901), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738901), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738901), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738901), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4315738901), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1354,8 +1354,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4327706740), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4327706740), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4327706740), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4327706740), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4327706740), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4327706740), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4327706740), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4327706740), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4327706740), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1363,8 +1363,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4333479131), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4333479131), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4333479131), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4333479131), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4333479131), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4333479131), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4333479131), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4333479131), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4333479131), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1372,8 +1372,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339006887), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339006887), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339006887), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339006887), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339006887), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339006887), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339006887), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339006887), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339006887), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1381,8 +1381,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339009890), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339009890), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339009890), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339009890), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339009890), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339009890), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339009890), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339009890), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4339009890), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1390,8 +1390,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4352799090), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4352799090), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4352799090), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4352799090), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4352799090), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4352799090), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4352799090), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4352799090), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4352799090), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1399,8 +1399,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4374347652), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4374347652), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4374347652), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4374347652), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4374347652), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4374347652), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4374347652), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4374347652), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4374347652), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1408,8 +1408,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405534293), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405534293), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405534293), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405534293), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405534293), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405534293), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405534293), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405534293), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405534293), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1417,8 +1417,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405541692), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405541692), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405541692), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405541692), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405541692), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405541692), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405541692), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405541692), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405541692), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1426,8 +1426,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576690), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576690), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576690), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576690), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576690), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576690), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576690), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576690), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576690), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1435,8 +1435,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576691), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576691), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576691), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576691), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576691), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576691), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576691), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576691), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4405576691), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1444,8 +1444,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417957689), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417957689), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417957689), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417957689), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417957689), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417957689), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417957689), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417957689), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417957689), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1453,8 +1453,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417987189), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417987189), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417987189), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417987189), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417987189), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417987189), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417987189), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417987189), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4417987189), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1462,8 +1462,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4418027390), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4418027390), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4418027390), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4418027390), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4418027390), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4418027390), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4418027390), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4418027390), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4418027390), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1471,8 +1471,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4424657166), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4424657166), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4424657166), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4424657166), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4424657166), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4424657166), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4424657166), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4424657166), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4424657166), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1480,8 +1480,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4432730492), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4432730492), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4432730492), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4432730492), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4432730492), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4432730492), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4432730492), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4432730492), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4432730492), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1489,8 +1489,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4433977222), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4433977222), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4433977222), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4433977222), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4433977222), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4433977222), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4433977222), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4433977222), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4433977222), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1498,8 +1498,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299066), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299066), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299066), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299066), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299066), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299066), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299066), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299066), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299066), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1507,8 +1507,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299067), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299067), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299067), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299067), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299067), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299067), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299067), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299067), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299067), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1516,8 +1516,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299068), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299068), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299068), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299068), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299068), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299068), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299068), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299068), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4444299068), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1525,8 +1525,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388368), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388368), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388368), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388368), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388368), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388368), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388368), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388368), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388368), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1534,8 +1534,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388891), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388891), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388891), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388891), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388891), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388891), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388891), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388891), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496388891), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1543,8 +1543,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496389072), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496389072), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496389072), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496389072), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496389072), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496389072), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496389072), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496389072), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4496389072), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1552,8 +1552,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4508379086), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4508379086), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4508379086), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4508379086), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4508379086), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4508379086), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4508379086), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4508379086), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4508379086), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1561,8 +1561,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4512776875), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4512776875), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4512776875), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4512776875), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4512776875), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4512776875), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4512776875), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4512776875), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4512776875), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1570,8 +1570,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4553487882), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4553487882), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4553487882), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4553487882), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4553487882), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4553487882), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4553487882), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4553487882), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4553487882), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1579,8 +1579,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4584486996), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4584486996), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4584486996), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4584486996), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4584486996), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4584486996), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4584486996), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4584486996), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4584486996), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1588,8 +1588,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4598901045), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4598901045), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4598901045), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4598901045), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4598901045), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4598901045), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4598901045), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4598901045), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4598901045), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1597,8 +1597,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427711), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427711), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427711), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427711), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427711), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427711), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427711), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427711), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427711), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1606,8 +1606,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427718), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427718), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427718), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427718), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427718), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427718), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427718), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427718), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4614427718), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1615,8 +1615,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870504), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870504), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870504), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870504), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870504), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870504), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870504), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870504), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870504), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1624,8 +1624,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870510), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870510), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870510), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870510), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870510), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870510), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870510), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870510), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870510), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1633,8 +1633,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870746), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870746), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870746), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870746), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870746), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870746), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870746), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870746), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690870746), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1642,8 +1642,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690874427), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690874427), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690874427), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690874427), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690874427), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690874427), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690874427), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690874427), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4690874427), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1651,8 +1651,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715312965), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715312965), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715312965), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715312965), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715312965), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715312965), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715312965), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715312965), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715312965), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1660,8 +1660,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715313623), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715313623), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715313623), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715313623), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715313623), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715313623), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715313623), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715313623), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715313623), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1669,8 +1669,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715315340), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715315340), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715315340), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715315340), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715315340), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715315340), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715315340), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715315340), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715315340), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1678,8 +1678,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715316595), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715316595), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715316595), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715316595), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715316595), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715316595), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715316595), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715316595), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4715316595), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1687,8 +1687,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363305), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363305), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363305), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363305), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363305), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363305), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363305), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363305), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363305), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1696,8 +1696,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363866), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363866), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363866), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363866), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363866), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363866), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363866), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363866), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4781363866), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1705,8 +1705,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782433638), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782433638), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782433638), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782433638), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782433638), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782433638), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782433638), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782433638), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782433638), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1714,8 +1714,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782434921), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782434921), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782434921), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782434921), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782434921), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782434921), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782434921), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782434921), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4782434921), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1723,8 +1723,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4818143288), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4818143288), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4818143288), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4818143288), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4818143288), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4818143288), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4818143288), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4818143288), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4818143288), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1732,8 +1732,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824578043), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824578043), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824578043), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824578043), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824578043), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824578043), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824578043), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824578043), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824578043), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1741,8 +1741,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824581333), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824581333), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824581333), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824581333), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824581333), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824581333), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824581333), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824581333), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4824581333), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1750,8 +1750,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891607560), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891607560), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891607560), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891607560), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891607560), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891607560), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891607560), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891607560), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891607560), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1759,8 +1759,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891608724), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891608724), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891608724), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891608724), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891608724), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891608724), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891608724), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891608724), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4891608724), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1768,8 +1768,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4952154917), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4952154917), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4952154917), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4952154917), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4952154917), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4952154917), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4952154917), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4952154917), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =4952154917), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1777,8 +1777,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5074923145), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5074923145), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5074923145), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5074923145), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5074923145), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5074923145), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5074923145), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5074923145), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5074923145), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1786,8 +1786,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196390), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196390), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196390), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196390), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196390), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196390), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196390), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196390), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196390), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1795,8 +1795,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196433), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196433), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196433), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196433), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196433), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196433), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196433), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196433), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5122196433), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1804,8 +1804,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5126832653), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5126832653), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5126832653), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5126832653), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5126832653), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5126832653), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5126832653), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5126832653), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5126832653), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1813,8 +1813,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5139032213), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5139032213), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5139032213), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5139032213), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5139032213), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5139032213), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5139032213), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5139032213), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5139032213), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1822,8 +1822,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5149299524), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5149299524), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5149299524), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5149299524), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5149299524), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5149299524), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5149299524), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5149299524), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5149299524), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1831,8 +1831,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5166344144), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5166344144), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5166344144), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5166344144), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5166344144), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5166344144), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5166344144), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5166344144), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5166344144), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1840,8 +1840,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5173579997), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5173579997), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5173579997), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5173579997), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5173579997), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5173579997), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5173579997), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5173579997), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5173579997), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1849,8 +1849,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531669), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531669), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531669), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531669), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531669), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531669), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531669), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531669), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531669), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1858,8 +1858,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531684), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531684), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531684), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531684), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531684), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531684), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531684), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531684), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531684), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1867,8 +1867,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531774), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531774), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531774), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531774), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531774), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531774), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531774), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531774), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531774), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1876,8 +1876,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531880), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531880), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531880), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531880), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531880), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531880), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531880), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531880), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531880), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1885,8 +1885,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531946), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531946), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531946), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531946), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531946), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531946), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531946), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531946), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5194531946), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1894,8 +1894,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5287291244), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5287291244), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5287291244), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5287291244), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5287291244), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5287291244), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5287291244), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5287291244), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5287291244), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1903,8 +1903,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5301216657), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5301216657), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5301216657), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5301216657), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5301216657), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5301216657), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5301216657), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5301216657), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5301216657), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1912,8 +1912,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5359080721), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5359080721), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5359080721), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5359080721), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5359080721), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5359080721), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5359080721), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5359080721), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5359080721), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1921,8 +1921,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5366072321), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5366072321), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5366072321), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5366072321), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5366072321), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5366072321), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5366072321), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5366072321), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5366072321), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1930,8 +1930,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5368603191), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5368603191), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5368603191), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5368603191), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5368603191), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5368603191), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5368603191), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5368603191), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5368603191), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1939,8 +1939,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393074935), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393074935), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393074935), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393074935), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393074935), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393074935), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393074935), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393074935), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393074935), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1948,8 +1948,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393514681), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393514681), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393514681), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393514681), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393514681), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393514681), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393514681), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393514681), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5393514681), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1957,8 +1957,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405178108), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405178108), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405178108), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405178108), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405178108), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405178108), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405178108), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405178108), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405178108), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1966,8 +1966,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179423), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179423), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179423), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179423), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179423), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179423), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179423), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179423), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179423), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1975,8 +1975,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437614621), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437614621), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437614621), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437614621), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437614621), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437614621), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437614621), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437614621), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437614621), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1984,8 +1984,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5450827386), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5450827386), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5450827386), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5450827386), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5450827386), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5450827386), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5450827386), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5450827386), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5450827386), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -1993,8 +1993,8 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5459041216), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5459041216), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5459041216), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5459041216), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5459041216), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5459041216), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5459041216), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5459041216), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5459041216), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
@@ -2002,9 +2002,27 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5465632091), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5465632091), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5465632091), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
-INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5465632091), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5465632091), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5465632091), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5465632091), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5465632091), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5465632091), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148900), (SELECT idTopic FROM topic WHERE refId ='pizza'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148900), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148900), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148900), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148900), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148900), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148900), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148900), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148900), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484157985), (SELECT idTopic FROM topic WHERE refId ='pizza'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484157985), (SELECT idTopic FROM topic WHERE refId ='italian'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484157985), (SELECT idTopic FROM topic WHERE refId ='regional'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484157985), (SELECT idTopic FROM topic WHERE refId ='chinese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484157985), (SELECT idTopic FROM topic WHERE refId ='japanese'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484157985), (SELECT idTopic FROM topic WHERE refId ='seafood'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484157985), (SELECT idTopic FROM topic WHERE refId ='sushi'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484157985), (SELECT idTopic FROM topic WHERE refId ='asian'), 0);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484157985), (SELECT idTopic FROM topic WHERE refId ='burger'), 0);
 UNLOCK TABLES;
