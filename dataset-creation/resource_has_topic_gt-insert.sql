@@ -339,4 +339,5 @@ INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idRe
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5405179422), (SELECT idTopic FROM topic WHERE refId ='pizza'), 2);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5421253076), (SELECT idTopic FROM topic WHERE refId ='pizza'), 2);
 INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5437838121), (SELECT idTopic FROM topic WHERE refId ='japanese'), 2);
+INSERT INTO resource_has_topic (idResource, idTopic, score) VALUES ((SELECT idResource FROM resource WHERE refId =5484148844), (SELECT idTopic FROM topic WHERE refId ='japanese'), 2);
 UNLOCK TABLES;
