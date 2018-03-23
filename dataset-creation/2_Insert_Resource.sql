@@ -18,7 +18,7 @@
  */
  
 LOCK TABLES resource WRITE;
-INSERT INTO resource (refId, lat, lng, orderBy, label, url) VALUES
+INSERT INTO resource (refId, lat, long, orderBy, label, url) VALUES
 ('http://www.openstreetmap.org/node/267033956',45.4944919,9.221509, rand(),'Da Marco', ''),
 ('http://www.openstreetmap.org/node/281819160',45.4887909,9.1966345, rand(),'Da Berti', ''),
 ('http://www.openstreetmap.org/node/282549040',45.4944891,9.1959957, rand(),'a Riccione', ''),
