@@ -15,7 +15,6 @@
 # 3) SQL query generation
 
 #set your workspace
- # setwd("/home/re/stars4all - WP5/Enabler-tutorialOSM/")
 setwd("/path/to/workspace/")
 
 #1) Extracting data from OSM
