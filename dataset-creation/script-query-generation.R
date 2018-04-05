@@ -84,7 +84,7 @@ setwd("/path/to/workspace/")
     # a) table RESOURCE    
     query.resource<-character()
     query.resource<-c("LOCK TABLES resource WRITE;")
-    query.resource<-c(query.resource, "INSERT INTO resource (refId, lat, lon, orderBy, label, url) VALUES")
+    query.resource<-c(query.resource, "INSERT INTO resource (refId, lat, `long`, orderBy, label, url) VALUES")
     
     for(i in 1:nrow(resource)){
       if(i != nrow(resource)){
