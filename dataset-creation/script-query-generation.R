@@ -101,14 +101,14 @@ setwd("/path/to/workspace/")
     # b) table TOPIC
     query.topic<-character()
     query.topic<-c("LOCK TABLES topic WRITE;")
-    query.topic<-c(query.topic, "INSERT INTO topic (refId, value, weight, url) VALUES")
+    query.topic<-c(query.topic, "INSERT INTO topic (refId, value, label, weight, url) VALUES")
     
     for(ct in 1:nrow(categories)){
       if(ct != nrow(categories)){
-        qt<-paste0("('", categories$label[ct], "','" , categories$label[ct], "',", categories$prior[ct], ", ''),")
+        qt<-paste0("('", categories$label[ct], "','" , categories$label[ct], "','" , categories$label[ct], "',", categories$prior[ct], ", ''),")
         query.topic<-c(query.topic, qt)
-      }else{
-        qt<-paste0("('", categories$label[ct], "','" , categories$label[ct], "',", categories$prior[ct], ", '');")
+      } else {
+        qt<-paste0("('", categories$label[ct], "','" , categories$label[ct], "','" , categories$label[ct], "',", categories$prior[ct], ", '');")
         query.topic<-c(query.topic, qt)
       }
     }
