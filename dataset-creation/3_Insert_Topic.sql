@@ -18,14 +18,14 @@
  */
  
 LOCK TABLES topic WRITE;
-INSERT INTO topic (refId, value, weight, url) VALUES
-('pizza','pizza',0.254, ''),
-('italian','italian',0.23, ''),
-('regional','regional',0.084, ''),
-('chinese','chinese',0.068, ''),
-('japanese','japanese',0.063, ''),
-('seafood','seafood',0.063, ''),
-('sushi','sushi',0.047, ''),
-('asian','asian',0.021, ''),
-('burger','burger',0.013, '');
+INSERT INTO topic (refId, value, label, weight, url) VALUES
+('pizza','pizza','pizza',0.254, ''),
+('italian','italian','italian',0.23, ''),
+('regional','regional','regional',0.084, ''),
+('chinese','chinese','chinese',0.068, ''),
+('japanese','japanese','japanese',0.063, ''),
+('seafood','seafood','seafood',0.063, ''),
+('sushi','sushi','sushi',0.047, ''),
+('asian','asian','asian',0.021, ''),
+('burger','burger','burger',0.013, '');
 UNLOCK TABLES;
